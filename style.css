@@ -5,15 +5,14 @@ html, body{
 .BackgroundCover
 {
     height: 100%;
-    background: url('../images/wp2291590.jpg');
-    background-size: cover;
-    background-position: left;
+    background-color: black;
+   
 }
 
 .Navbar
 {
     height: 100px;
-    background-color: blue;
+    
     padding: 10px;
 }
 .NavBarBrandLink
@@ -25,4 +24,25 @@ html, body{
 .NavBarLinkWrapper
 {
     width: 80%;
+}
+.NavLinkRight {
+    float: right;
+}
+.NavItem
+{
+    float: right;
+    margin-right: 30px;
+}
+.NavLink{
+    color: white;
+    font-size: 20px;
+}
+.NavLink:hover{
+    color: white;
+    text-decoration: none;
+}
+.NavBarBrand
+{
+    width: 15%;
+    float: left;
 }
